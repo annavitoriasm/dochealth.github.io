@@ -82,26 +82,72 @@
             <div class="content">
                 <h2>Day 20, may</h2>
 
+
+        <!-- "---SINTOMAS---" -->
+
                 <div class="sintomas">
                     <h4>SINTOMAS</h4>
                     <div class="box-sintomas">
-                        <div class="text-sintomas">
-                            a
+                        
+                    <div class="box-tags">
+
+                        <div class="selecionados">
+
+                            <div class="campo-tags">
+                                <span class="tag">Dor de cabeça</span>
+                                <span class="tag-remove"><i class="fa-solid fa-xmark"></i></span>
+                            </div>
+
+                            <!-- <div class="campo-tags">
+                                <span class="tag">Fraqueza</span>
+                                <span class="tag-remove"><i class="fa-solid fa-xmark"></i></span>
+                            </div> -->
+
+                            <div class="campo-tags">
+                                <span class="tag">Náusea</span>
+                                <span class="tag-remove"><i class="fa-solid fa-xmark"></i></span>
+                            </div>
+
                         </div>
+
+                        <div class="open-opcoes">
+                            <span class="icon-open" id="icon-open"><i class="fa-solid fa-caret-down"></i></span>
+                        </div>
+
+                    </div>
+
+                        <div class="opcoes-sintomas">
+                            <div class="opcoes">Febre</div>
+                            <div class="opcoes">Dor de cabeça</div>
+                            <div class="opcoes">Dores no corpo</div>
+                            <div class="opcoes">Fraqueza</div>
+                            <div class="opcoes">Náusea</div>
+
+                            <div class="opcoes">
+                                <input type="text" value="Adicionar sintoma">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+
+        <!-- "---NOTAS---" -->
 
                 <div class="notes">
                     <h4>NOTES</h4>
                     <div class="box-notes">
-                        <input type="text" id="input-notes">
+                        <textarea name="" id="input-notes" minlength="10" placeholder="digite seu dia"></textarea>
                     </div>
                 </div>
 
+        <!-- "---ANEXOS---" -->
                 <div class="anexo">
                     <div class="box-anexos">
                         <h4>ANEXOS</h4>
-                        <input type="image">
+                        <div class="box-files">
+                            <label for="file">Upload File</label>
+                            <input type="file" id="file">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,6 +156,7 @@
     </main>
 
     <script src="../script/sidebar.js"></script>
+    <script src="../script/select.js"></script>
 </body>
 
 </html>

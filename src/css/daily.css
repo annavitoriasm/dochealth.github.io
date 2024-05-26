@@ -178,7 +178,7 @@ main{
 
 }
 .content{
-    margin: 40px 50px 40px 50px;
+    margin: 40px 40px 40px 40px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -192,13 +192,135 @@ main{
 }
 .content h4{
     font-size: 14px;
+    color: rgb(63, 63, 63);
 }
 .box-sintomas{
-    height: 40px;
-    width: 400px;
-    background-color: #52525221;
-    border-radius: 20px;
+    width: 410px;
+    min-height: 50px;
+    max-height: 300px;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    box-shadow: 4px 4px 8px 1px rgba(90, 90, 90, 0.205);
+    border-radius: 16px;
+    transition: all 0.75s;
+}
+
+.box-tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selecionados{
+    min-height: 45px;
+    max-height: 300px;
+    width: 380px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    display: flex;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.campo-tags{
+    display: flex;
+    white-space: nowrap;
+    background-color: rgb(217, 186, 245);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 16px;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+}
+
+.open-opcoes{
+    margin-left: 5px;
+    padding-right: 30px;
+    cursor: pointer;
+    transition: all 0.75s;
+    width: 20px;
+}
+
+.fa-caret-down{
+    color: black;
+    font-size: 22px;
+}
+
+.tag-remove{
+    cursor: pointer;
+    color: black;
+}
+
+.opcoes-sintomas{
+    background-color: white;
+    width: 400px;
+    border-color: rgba(0, 0, 0, 0.342);
+    border: 3px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 1px rgba(90, 90, 90, 0.205);
+    padding: 15px 20px 15px 20px;
+    position: absolute;
+    display: none;
+    transition: all 0.75s;
+    z-index: 1;
+}
+
+.open{
+    display: block;
+}
+
+/* '---NOTES---' */
+
+#input-notes{
+    outline: 0;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 150px;
+    max-height: 300px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 4px 4px 8px 1px rgba(90, 90, 90, 0.205);
+}
+
+
+/* '---FILES---' */
+
+.box-anexos h4{
+    margin-bottom: 5px;
+}
+
+.box-files{
+    border-style: dashed;
+    border-width: 2px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.336);
+    box-shadow: 4px 4px 8px 1px rgba(90, 90, 90, 0.11);
+    display: flex;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-anexos label{
+    cursor: pointer;
+    background-color: rgba(252, 203, 211, 0.507);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(252, 203, 211, 0.507);
+    padding: 5px 5px 5px 5px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+#file{
+    
+}
+::-webkit-file-upload-button{
+    display: none;
 }

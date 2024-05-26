@@ -55,18 +55,13 @@ nav{
 
 .user{
     margin-top: 60px;
-    gap: 2rem;
     padding-bottom: 30px;
     display: flex;
-    gap: 1rem;
     text-align: start;
+    align-items: center;
+    gap: 0.35rem;
 }
 
-.txt-user{
-    margin-left: 6px;
-    text-align: center;
-    margin-top: 8px;
-}
 .fa-circle-user{
     margin-left: 10px;
     font-size: 36px;

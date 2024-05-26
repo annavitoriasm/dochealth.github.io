@@ -318,9 +318,27 @@ main{
     font-size: 14px;
     margin-right: 5px;
 }
-#file{
-    
-}
 ::-webkit-file-upload-button{
     display: none;
+}
+
+@media screen and (max-width: 1000px){
+    main{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .daily{
+        width: 300px;
+        margin-left: 65px;
+        height: 550px;
+    }
+    .content h2{
+        font-size: 33px;
+    }
+    .content{
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+    
 }

@@ -20,7 +20,7 @@ nav{
     left: 0;
     bottom: 0;
     height: 100vh;
-    width: 63px;
+    width: 190px;
     background-color: white;
     box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
     display: flex;
@@ -31,8 +31,8 @@ nav{
     transition: all 0.75s;
 }
 
-.open{
-    width: 190px;
+.close{
+    width: 63px;
     transition: all 0.75s;
 }
 

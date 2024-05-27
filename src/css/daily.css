@@ -11,6 +11,11 @@
 body{
     min-height: 100vh;
     background-color: #E7F1F1;
+    background: url(../public/img/background-principal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
 }
 /* '---SIDEBAR---' */

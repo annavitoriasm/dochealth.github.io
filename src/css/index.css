@@ -11,6 +11,11 @@
 body{
     min-height: 100vh;
     background-color: #E7F1F1;
+    background: url(../public/img/background2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
 }
 /* '---SIDEBAR---' */
@@ -157,4 +162,65 @@ ul, i{
 txt{
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+/* '---TITLE---' */
+
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+main h1{
+    font-size: 84px;
+    letter-spacing: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+main h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+main h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.title{
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    display: flex;
+}
+
+#icon-logo{
+    width: 110px;
+    height: 110px;
+}
+
+.btn-title{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
 }

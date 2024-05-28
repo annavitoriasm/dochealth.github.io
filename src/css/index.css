@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #ffffff;
+  }
+
+html ::-webkit-scrollbar-track {
+    background: #00000010;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -201,7 +214,7 @@ main h3{
 }
 
 .title{
-    margin-left: 120px;
+    margin-left: 70px;
     margin-bottom: 50px;
 }
 
@@ -215,12 +228,24 @@ main h3{
 }
 
 .btn-title{
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: black;
-    color: white;
+    color: #E7F1F1;
     border-style: none;
     border-radius: 6px;
-    width: 100px;
-    height: 40px;
+    width: 135px;
+    height: 45px;
     cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 2px;
+    transition: all 0.75s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-title:hover{
+    width: 138px;
+    font-size: 15.5px;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(255, 255, 255, 0.692);
+    color: white;
+    transition: all 0.75s;
 }

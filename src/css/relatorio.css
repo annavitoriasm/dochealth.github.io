@@ -187,7 +187,7 @@ main{
     width: 100%;
     margin-left: 240px;
     padding-left: 200px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 45px;
 }
 
@@ -222,9 +222,10 @@ main{
 .day{
     background-color: transparent;
     padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     border-bottom: dashed;
     border-color: rgba(0, 0, 0, 0.329);
+    border-width: 2px;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
@@ -235,13 +236,13 @@ main{
 }
 
 .day .fa-solid{
-    color: black;
-    font-size: 16px;
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 14px;
     margin-right: 5px;
 }
 
 .day .fa-heart-pulse{
-    font-size: 18px;
+    font-size: 16px;
     margin-left: -2px;
 }
 

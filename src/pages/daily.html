@@ -48,7 +48,7 @@
                 </li>
     
                 <li>
-                    <a href="#">
+                    <a href="../pages/relatorio.html">
                         <i class="fa-solid fa-clipboard"></i>
                         <span class="txt">Relatório</span>
                     </a>
@@ -93,30 +93,32 @@
 
                         <div class="selecionados">
 
-                            <div class="campo-tags">
+                            <!-- <div class="campo-tags">
                                 <span class="tag">Dor de cabeça</span>
                                 <span class="tag-remove"><i class="fa-solid fa-xmark"></i></span>
-                            </div>
+                            </div> -->
 
                             <!-- <div class="campo-tags">
                                 <span class="tag">Fraqueza</span>
                                 <span class="tag-remove"><i class="fa-solid fa-xmark"></i></span>
                             </div> -->
 
-                            <div class="campo-tags">
+                            <!-- <div class="campo-tags">
                                 <span class="tag">Náusea</span>
                                 <span class="tag-remove"><i class="fa-solid fa-xmark"></i></span>
-                            </div>
+                            </div> -->
+
+                            <button onclick="selecionar()">A</button>
 
                         </div>
 
                         <div class="open-opcoes">
-                            <span class="icon-open" id="icon-open"><i class="fa-solid fa-caret-down"></i></span>
+                            <button class="icon-op" id="icon-op"><i class="fa-solid fa-caret-down"></i></button>
                         </div>
 
                     </div>
 
-                        <div class="opcoes-sintomas">
+                        <div class="opcoesSintomas">
                             <div class="opcoes">Febre</div>
                             <div class="opcoes">Dor de cabeça</div>
                             <div class="opcoes">Dores no corpo</div>
@@ -157,6 +159,7 @@
 
     <script src="../script/sidebar.js"></script>
     <script src="../script/select.js"></script>
+    <script src="../script/selectSint.js"></script>
 </body>
 
 </html>

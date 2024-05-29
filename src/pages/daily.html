@@ -77,17 +77,19 @@
     <!-- "---DAILY---" -->
 
     <main class="container">
-        <div class="figures-daily">
-            <div class="figure"><p>display none</p></div>
-            <div class="figure"><p>display none</p></div>
-            <div class="figure"><p>display none</p></div>
-            <div class="figure"><p>display none</p></div>
-            <div class="figure"><p>display none</p></div>
-        </div>
+
         <div class="daily">
+
+            <div class="figures-daily">
+                <div class="figure"><p>display none</p></div>
+                <div class="figure"><p>display none</p></div>
+                <div class="figure"><p>display none</p></div>
+                <div class="figure"><p>display none</p></div>
+                <div class="figure"><p>display none</p></div>
+            </div>
+
             <div class="content">
                 <h2>Day 20, may</h2>
-
 
         <!-- "---SINTOMAS---" -->
 
@@ -114,8 +116,6 @@
                                 <span class="tag-remove"><i class="fa-solid fa-xmark"></i></span>
                             </div> -->
 
-                            <button onclick="selecionar()">A</button>
-
                         </div>
 
                         <div class="open-opcoes">
@@ -125,14 +125,14 @@
                     </div>
 
                         <div class="opcoesSintomas">
-                            <div class="opcoes">Febre</div>
+                            <div class="opcoes" onclick="selecionar('Febre')">Febre</div>
                             <div class="opcoes">Dor de cabeça</div>
                             <div class="opcoes">Dores no corpo</div>
                             <div class="opcoes">Fraqueza</div>
                             <div class="opcoes">Náusea</div>
 
-                            <div class="opcoes">
-                                <input type="text" value="Adicionar sintoma">
+                            <div class="opcoes op-novosintoma">
+                                <input type="text" value="Adicionar sintoma" id="novosintoma">
                             </div>
                         </div>
 
@@ -164,7 +164,7 @@
     </main>
 
     <script src="../script/sidebar.js"></script>
-    <script src="../script/select.js"></script>
+    <script src="../script/listSint.js"></script>
     <script src="../script/selectSint.js"></script>
 </body>
 

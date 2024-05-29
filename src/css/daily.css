@@ -196,7 +196,8 @@ main{
     gap: 3rem;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-right: -18px;
+    margin-left: -25px;
+    justify-content: center;
 }
 
 .figure{
@@ -212,15 +213,18 @@ main{
 }
 
 .daily{
+    display: flex;
     background-color: white;
     border-radius: 10px;
-    height: 550px;
+    min-height: 550px;
+    max-height: none;
     width: 500px;
     box-shadow: 4px 4px 8px 1px rgba(90, 90, 90, 0.363);
+    position: relative;
 
 }
 .content{
-    margin: 40px 40px 40px 40px;
+    margin: 40px 40px 40px 30px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -266,6 +270,7 @@ main{
     text-overflow: ellipsis;
     flex-wrap: wrap;
     gap: 0.5rem;
+    overflow-y: auto;
 }
 
 .campo-tags{
@@ -279,6 +284,29 @@ main{
     align-items: center;
     gap: 0.5rem;
     color: black;
+}
+
+.opcoes{
+    cursor: pointer;
+    transition: all 0.75s;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+.opcoes:hover{
+    background-color: rgba(31, 30, 30, 0.048);
+    transition: all 0.75s;
+}
+
+#novosintoma{
+    margin-top: 5px;
+    border-radius: 6px;
+    border-width: 2.5px;
+    height: 30px;
+    border-color: rgba(81, 153, 103, 0.815);
+}
+
+.op-novosintoma:hover{
+    background-color: white;
 }
 
 .open-opcoes{

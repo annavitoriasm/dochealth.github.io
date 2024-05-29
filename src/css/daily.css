@@ -292,8 +292,9 @@ main{
     padding-left: 10px;
     border-radius: 6px;
 }
+
 .opcoes:hover{
-    background-color: rgba(31, 30, 30, 0.048);
+    color: rgb(81, 153, 103);
     transition: all 0.75s;
 }
 

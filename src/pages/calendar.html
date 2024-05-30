@@ -10,7 +10,162 @@
     <title>Calendar - DocHealth</title>
 </head>
 <body>
+    <!-- "---NAVBAR---" -->
+    <nav class="navbar">
+        <div class="sidebar">
+            <button class="open-nav" id="open-nav">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="user">
+                <i class="fa-solid fa-circle-user"></i>
+                <span class="txt">User</span>
+            </div>
+
+            <ul>
+                <li>
+                    <a href="../../index.html">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="txt">Home</span>
+                    </a>
+                </li>
     
+                <li>
+                    <a href="daily.html">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                        <span class="txt">Daily</span>
+                    </a>
+                </li>
+    
+                <li class="active item-menu">
+                    <a href="calendar.html">
+                        <i class="fa-solid fa-calendar"></i>
+                        <span class="txt">Calendar</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../pages/relatorio.html">
+                        <i class="fa-solid fa-clipboard"></i>
+                        <span class="txt">Relatório</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="txt">Configurações</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="logout">
+            <button id="logout"> 
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span class="txt">Logout</span>
+            </button>
+        </div>
+    </nav>
+
+
+    <!-- "---CALENDAR---" -->
+
+    <main>
+
+        <div class="calendar">
+
+            <div class="month">
+
+                <i class="fa-solid fa-chevron-left"></i>
+                <H6>Junho</H6>
+                <i class="fa-solid fa-chevron-right"></i>
+
+            </div>
+
+            <table>
+                    <thead>
+                        <tr>
+                            <th> <h3>Dom</h3> </th>
+                            <th> <h3>Seg</h3> </th>
+                            <th> <h3>Ter</h3> </th>
+                            <th> <h3>Qua</h3> </th>
+                            <th> <h3>Qui</h3> </th>
+                            <th> <h3>Sex</h3> </th>
+                            <th> <h3>Sab</h3> </th>
+                        </tr>
+                    </thead>
+
+                <tbody>
+
+                <tr>
+
+                    <td id="other-months"> <div class="daily">28 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td id="other-months"> <div class="daily">29 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td id="other-months"> <div class="daily">30 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">1 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">2 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">3 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">4 <i class="fa-solid fa-circle"></i> </div> </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> <div class="daily">5 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">6 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">7 <i class="fa-solid fa-circle"></i></div> </td>
+                    <td> <div class="daily">8 <i class="fa-solid fa-circle"></i></div> </td>
+                    <td> <div class="daily">9 <i class="fa-solid fa-circle"></i></div> </td>
+                    <td> <div class="daily registered"> 10 <i class="fa-solid fa-circle on"></i></div> </td>
+                    <td> <div class="daily registered">11 <i class="fa-solid fa-circle on"></i></div> </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> <div class="daily registered">12 <i class="fa-solid fa-circle on"></i> </div> </td>
+                    <td> <div class="daily registered">13 <i class="fa-solid fa-circle on"></i> </div> </td>
+                    <td> <div class="daily registered">14 <i class="fa-solid fa-circle on"></i> </div> </td>
+                    <td> <div class="daily registered">15 <i class="fa-solid fa-circle on"></i> </div> </td>
+                    <td> <div class="daily registered">16 <i class="fa-solid fa-circle on"></i> </div> </td>
+                    <td> <div class="daily registered">17 <i class="fa-solid fa-circle on"></i> </div> </td>
+                    <td> <div class="daily">18 <i class="fa-solid fa-circle"></i> </div> </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> <div class="daily">19 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">20 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">21 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">22 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">23 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">24 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">25 <i class="fa-solid fa-circle"></i> </div> </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> <div class="daily">26 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">27 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">28 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">29 <i class="fa-solid fa-circle"></i> </div> </td>
+                    <td> <div class="daily">30 <i class="fa-solid fa-circle"></i></div> </td>
+                    <td> <div class="daily">31 <i class="fa-solid fa-circle"></i></div> </td>
+                    <td id="other-months"> <div class="daily">1 <i class="fa-solid fa-circle"></i></div> </td>
+
+                </tr>
+
+
+                </tbody>
+                <tr>
+
+            </table>
+        </div>
+    </main>
+
     <script src="../script/sidebar.js"></script>
 </body>
 </html>

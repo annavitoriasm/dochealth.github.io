@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #ffffff;
+  }
+
+html ::-webkit-scrollbar-track {
+    background: #00000010;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #E7F1F1;
+    background: url(../public/img/background-principal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+/* '---SIDEBAR---' */
+
+nav{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 190px;
+    background-color: rgba(255, 255, 255, 0.678);
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    overflow: hidden;
+    transition: all 0.75s;
+}
+
+.close{
+    width: 63px;
+    transition: all 0.75s;
+}
+
+.open-nav{
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    border-style: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.fa-bars{
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.user{
+    margin-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.fa-circle-user{
+    margin-left: 10px;
+    font-size: 36px;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.75s;
+    font-size: 16px;
+}
+
+li{
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 6px;
+    transition: all 0.75s;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.025);
+    transition: all 0.75s;
+}
+li:hover a{
+    color: black;
+    transition: all 0.75s;
+}
+
+li:hover .txt{
+    font-size: 14.5px;
+    transition: all 0.75s;
+}
+
+.active{
+    background-color: rgb(29, 29, 29);
+}
+
+.active:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+.active a{
+    color: white;
+    transition: all 0.75s;
+}
+
+.active:hover a{
+    color: white;
+    transition: all 0.75s;
+}
+
+.active:hover .txt{
+    color: white;
+    transition: all 0.75s;
+}
+
+ul, i{
+    font-size: 15px;
+    padding-left: 4px;
+}
+.txt{
+    font-size: 14px;
+    margin-left: 12px;
+    transition: all 0.75s;
+}
+
+.logout{
+    border-top: 1px solid rgba(0, 0, 0, 0.116);
+    padding-top: 10px;
+}
+
+#logout{
+    background-color: transparent;
+    border-style: none;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    align-items: center;
+    gap: 2rem;
+    display: flex;
+}
+
+txt{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #ffffff;
+  }
+
+html ::-webkit-scrollbar-track {
+    background: #00000010;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #E7F1F1;
+    background: url(../public/img/background-principal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+
+
+/* '---CALENDAR---' */
+
+main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar{
+    background-color: white;
+    box-shadow: 4px 4px 8px 1px rgba(90, 90, 90, 0.363);
+    height: 470px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.month{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgba(93, 163, 114, 0.76);
+    width: 220px;
+    height: 45px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 2rem;
+    text-align: center;
+    font-size: 38px;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+table{
+    margin-top: 10px;
+}
+
+table, td, tr, thead, tbody{
+    padding: -2px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+thead{
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: rgba(37, 37, 37, 0.11);
+}
+
+#other-months{
+    color: rgba(31, 31, 31, 0.521);
+}
+
+h3{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 5px;
+}
+
+.daily{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+    margin-bottom: -2px;
+    transition: all 0.75s;
+}
+
+.daily .fa-circle{
+    opacity: 0;
+    font-size: 10px;
+    margin-left: -3px;
+}
+
+.daily .on{
+    opacity: 1;
+    color: rgba(81, 153, 103, 0.582);
+}
+
+.registered{
+    cursor: pointer;
+    transition: all 0.75s;
+}
+
+.registered:hover{
+    background-color: rgba(255, 227, 239, 0.37);
+    transition: all 0.75s;
+}
+
+

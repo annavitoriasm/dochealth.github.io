@@ -1,4 +1,4 @@
-// '---SELECIONAR OS SINTOMAS---'
+// '---ENVIO DOS SINTOMAS PARA A ABA SELECIONADOS---'
 
 const principal = document.querySelector('.selecionados');
 

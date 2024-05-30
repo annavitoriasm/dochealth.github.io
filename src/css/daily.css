@@ -252,6 +252,10 @@ main{
     transition: all 0.75s;
 }
 
+.sintomas, h4{
+    margin-bottom: 5px;
+}
+
 .box-tags{
     display: flex;
     justify-content: space-between;
@@ -276,7 +280,7 @@ main{
 .campo-tags{
     display: flex;
     white-space: nowrap;
-    background-color: rgb(217, 186, 245);
+    background-color: rgba(81, 153, 103, 0.247);
     padding-left: 5px;
     padding-right: 5px;
     margin-bottom: 5px;
@@ -294,7 +298,7 @@ main{
 }
 
 .opcoes:hover{
-    color: rgb(81, 153, 103);
+    background-color: rgba(0, 0, 0, 0.048);
     transition: all 0.75s;
 }
 
@@ -340,6 +344,7 @@ main{
     transition: all 0.75s;
     z-index: 1;
     display: none;
+    margin-left: 5px;
 }
 
 .op{
@@ -356,6 +361,10 @@ main{
 }
 
 /* '---NOTES---' */
+
+.box-notes{
+    margin-top: 5px;
+}
 
 #input-notes{
     outline: 0;

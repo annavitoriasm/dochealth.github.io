@@ -1,6 +1,5 @@
 // '---SELECIONAR OS SINTOMAS---'
 
-
 const principal = document.querySelector('.selecionados');
 
 function selecionar(sintoma) {
@@ -8,14 +7,20 @@ function selecionar(sintoma) {
     myDiv.innerHTML = sintoma;
     myDiv.classList.add('opcoes');
     principal.appendChild(myDiv);
+    let opcoesTags = document.querySelector('.opcoes')
+
+    opcoesTags.classList.add('campo-tags')
+    opcoesTags.classList.remove('opcoes')
 
     myDiv.addEventListener('click', function () {
-        console.log('teste');
     })
 }
 
+
+// '---LISTA DE SINTOMAS---'
+
 let opcoesSintomas = document.getElementById('listagem');
-let sintomas = ['Febre', 'Dor de cabeça', 'Tosse', 'Gripe'];
+let sintomas = ['Febre', 'Dor de cabeça', 'Tosse', 'Fadiga', 'Falta de ar', 'Náusea', 'Enjoo'];
 
 window.onload = function () {
     sintomas.map((novosintoma) => {

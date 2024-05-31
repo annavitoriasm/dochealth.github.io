@@ -216,7 +216,7 @@ main{
     display: flex;
     background-color: white;
     border-radius: 10px;
-    min-height: 550px;
+    height: 550px;
     max-height: none;
     width: 500px;
     box-shadow: 4px 4px 8px 1px rgba(90, 90, 90, 0.363);
@@ -246,7 +246,7 @@ main{
     max-height: 300px;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.068);
+    background-color: rgba(61, 61, 61, 0.068);
     box-shadow: 4px 4px 8px 1px rgba(90, 90, 90, 0.205);
     border-radius: 16px;
     transition: all 0.75s;
@@ -280,9 +280,9 @@ main{
 .campo-tags{
     display: flex;
     white-space: nowrap;
-    background-color: rgba(145, 81, 153, 0.315);
-    padding-left: 5px;
-    padding-right: 5px;
+    background-color: rgb(243, 214, 255);
+    padding-left: 8px;
+    padding-right: 8px;
     margin-bottom: 5px;
     border-radius: 16px;
     align-items: center;
@@ -448,22 +448,128 @@ main{
 }
 
 @media screen and (max-width: 1000px){
+
+    nav{
+        z-index: 9999999;
+    }
     main{
         height: 100vh;
         width: 100%;
+        padding-top: 90px;
     }
 
     .daily{
-        width: 300px;
-        margin-left: 65px;
-        height: 550px;
+        width: 250px;
+        height: 465px;
+        margin-left: -340px;
     }
     .content h2{
-        font-size: 33px;
+        font-size: 29px;
     }
     .content{
-        margin-left: 23px;
-        margin-right: 23px;
+        margin: 15px 20px 8px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .figures-daily{
+        margin-left: -15px;
+
     }
     
+    .figure{
+        width: 25px;
+        height: 15px;
+    }
+    
+    .box-sintomas{
+        width: 200px;
+        min-height: 25px;
+        max-height: 300px;
+    }
+    .selecionados{
+        min-height: 25px;
+        max-height: 300px;
+        width: 195px;
+    }
+    
+    .campo-tags{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .opcoes:hover{
+        background-color: rgba(0, 0, 0, 0.048);
+        transition: all 0.75s;
+    }
+    
+    #novosintoma{
+        height: 20px;
+    }
+    
+    .op-novosintoma:hover{
+        background-color: white;
+    }
+    
+    .open-opcoes{
+        margin-left: 0px;
+        padding-right: 30px;
+        width: 10px;
+    }
+    
+    .fa-caret-down{
+        font-size: 18px;
+    }
+    
+    .opcoesSintomas{
+        width: 180px;
+        margin-left: 10px;
+    }
+    
+    .op{
+        display: block;
+    }
+    
+    .icon-op{
+        width: 10px;
+        margin-top: 5px;
+    }
+    
+    #input-notes{
+        outline: 0;
+        width: 200px;
+        height: 120px;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .box-files{
+        width: 200px;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .box-anexos label{
+        padding: 5px 5px 5px 5px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    
+    /* '---SUBMIT---' */
+    
+    .btnregistrar{
+        width: 200px;
+        margin-top: 5px;
+    }
+    #registrar{
+        width: 80px;
+        height: 25px;
+        cursor: pointer;
+        font-size: 11px;
+    }
+    
+    #registrar:hover{
+        width: 85px;
+        font-size: 11.5px;
+    }
 }

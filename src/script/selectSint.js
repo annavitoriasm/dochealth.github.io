@@ -3,6 +3,7 @@
 const principal = document.querySelector('.selecionados');
 
 function selecionar(sintoma) {
+    
     let myDiv = document.createElement('div');
     myDiv.innerHTML = sintoma;
     myDiv.classList.add('opcoes');

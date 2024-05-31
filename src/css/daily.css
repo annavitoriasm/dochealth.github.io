@@ -455,19 +455,21 @@ main{
     main{
         height: 100vh;
         width: 100%;
-        padding-top: 105px;
+        padding-top: 100px;
+
     }
 
     .daily{
         width: 270px;
         height: 470px;
+        max-height: max-content;
         margin-left: -340px;
     }
     .content h2{
         font-size: 29px;
     }
     .content{
-        margin: 15px 20px 8px 10px;
+        margin: 20px 20px 5px 20px;
         display: flex;
         flex-direction: column;
         gap: 1rem;

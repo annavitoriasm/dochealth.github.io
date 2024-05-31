@@ -331,14 +331,13 @@ h3{
         height: 100vh;
         width: 100%;
         padding-left: 55px;
-        padding-top: 45px;
+        padding-top: 40px;
         padding-bottom: 45px;
     }
     
     .calendar{
         height: 330px;
         width: 300px;
-        padding-top: 10px;
     }
     
     .month{

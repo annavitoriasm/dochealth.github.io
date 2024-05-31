@@ -273,6 +273,11 @@ main{
         padding-bottom: 45px;
     }
     
+    .cont-fig{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .figure{
         width: 100px;
         height: 30px;
@@ -288,4 +293,7 @@ main{
         margin: 20px 20px 20px 20px;
     }
 
+    .fa-right-from-bracket{
+        color: black;
+    }
 }

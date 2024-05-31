@@ -578,4 +578,8 @@ main{
         width: 85px;
         font-size: 11.5px;
     }
+
+    .fa-right-from-bracket{
+        color: black;
+    }
 }

@@ -449,6 +449,10 @@ main{
 
 @media screen and (max-width: 1000px){
 
+    .fa-bars{
+        color: black;
+    }
+
     nav{
         z-index: 9999999;
     }

@@ -321,4 +321,63 @@ h3{
     transition: all 0.75s;
 }
 
+@media screen and (max-width: 1000px){
+
+    .fa-bars{
+        color: black;
+    }
+
+    main{
+        height: 100vh;
+        width: 100%;
+        padding-left: 55px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+    .calendar{
+        height: 330px;
+        width: 300px;
+        padding-top: 10px;
+    }
+    
+    .month{
+        margin-bottom: 10px;
+        width: 180px;
+        height: 35px;
+        font-size: 29px;
+    }
+    
+    .fa-chevron-left, .fa-chevron-right{
+        font-size: 18px;
+    }
+    
+    table{
+        margin-top: 10px;
+        width: 250px;
+    }
+    
+    table, td, tr, thead, tbody{
+        padding: -2px;
+        font-size: 12px;
+    }
+    
+    h3{
+        margin-bottom: 5px;
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+    
+    .daily{
+        width: 35px;
+        height: 35px;
+        margin-bottom: -2px;
+    }
+    
+    .daily .fa-circle{
+        font-size: 8px;
+        margin-left: -3px;
+    }
+
+}
 

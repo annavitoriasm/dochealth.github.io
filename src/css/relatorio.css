@@ -191,15 +191,19 @@ main{
     padding-bottom: 45px;
 }
 
+.cont-fig{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
 .figure{
     background-color: rgba(81, 153, 103, 0.815);
     box-shadow: 8px 8px 8px 2px rgba(90, 90, 90, 0.363);
     width: 160px;
     height: 40px;
     border-radius: 35px;
-    margin-bottom: -15px;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-bottom: -20px;
 }
 .figure p{
     display: none;
@@ -249,4 +253,39 @@ main{
 .txt-obs{
     color: rgba(0, 0, 0, 0.719);
     font-size: 13px;
+}
+
+@media screen and (max-width: 1000px){
+
+    nav{
+        z-index: 99999;
+    }
+
+    .fa-bars{
+        color: black;
+    }
+
+    main{
+        width: 100%;
+        margin-left: 70px;
+        padding-left: 5px;
+        padding-top: 30px;
+        padding-bottom: 45px;
+    }
+    
+    .figure{
+        width: 100px;
+        height: 30px;
+    }
+    
+    .paper{
+        min-height: 550px;
+        max-height: max-content;
+        max-width: 300px;
+    }
+    
+    .content{
+        margin: 20px 20px 20px 20px;
+    }
+
 }

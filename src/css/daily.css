@@ -468,20 +468,20 @@ main{
         display: flex;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
-        margin-left: 90px;
+        margin-left: 100px;
         padding-top: 60px;
     }
 
     .daily{
         width: 270px;
-        height: 280px;
+        height: 450px;
         max-height: max-content;
     }
     .content h2{
         font-size: 29px;
     }
     .content{
-        height: 200px;
+        height: 450px;
         margin: 20px 20px 5px 20px;
         display: flex;
         flex-direction: column;
@@ -490,7 +490,6 @@ main{
 
     .figures-daily{
         margin-left: -15px;
-
     }
     
     .figure{
@@ -574,6 +573,7 @@ main{
     
     .btnregistrar{
         width: 200px;
+        height: 30px;
         margin-top: 5px;
     }
     #registrar{

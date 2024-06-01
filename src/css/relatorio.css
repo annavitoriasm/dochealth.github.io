@@ -251,6 +251,10 @@ main{
     margin-left: -2px;
 }
 
+.day p{
+    font-size: 14px;
+}
+
 .txt-obs{
     color: rgba(0, 0, 0, 0.719);
     font-size: 13px;
@@ -277,7 +281,7 @@ main{
         display: flex;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
-        margin-left: 85px;
+        margin-left: 75px;
         padding-top: 45px;
     }
     

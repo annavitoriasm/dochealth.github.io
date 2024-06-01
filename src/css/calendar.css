@@ -311,6 +311,11 @@ h3{
     color: rgba(81, 153, 103, 0.582);
 }
 
+.today{
+    opacity: 1;
+    background-color: rgba(205, 255, 226, 0.493);
+}
+
 .registered{
     cursor: pointer;
     transition: all 0.75s;

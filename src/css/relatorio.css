@@ -258,20 +258,27 @@ main{
 
 @media screen and (max-width: 1000px){
 
-    nav{
-        z-index: 99999;
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        gap: 0.5rem;
     }
 
     .fa-bars{
         color: black;
     }
 
+    nav{
+        z-index: 9999999;
+    }
     main{
         width: 100%;
-        margin-left: 70px;
-        padding-left: 5px;
-        padding-top: 30px;
-        padding-bottom: 45px;
+        display: flex;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        margin-left: 75px;
+        padding-top: 45px;
     }
     
     .cont-fig{

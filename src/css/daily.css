@@ -449,6 +449,13 @@ main{
 
 @media screen and (max-width: 1000px){
 
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        gap: 0.5rem;
+    }
+
     .fa-bars{
         color: black;
     }
@@ -457,22 +464,24 @@ main{
         z-index: 9999999;
     }
     main{
-        height: 100vh;
         width: 100%;
-        padding-top: 100px;
-
+        display: flex;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        margin-left: 90px;
+        padding-top: 60px;
     }
 
     .daily{
         width: 270px;
-        height: 470px;
+        height: 280px;
         max-height: max-content;
-        margin-left: -340px;
     }
     .content h2{
         font-size: 29px;
     }
     .content{
+        height: 200px;
         margin: 20px 20px 5px 20px;
         display: flex;
         flex-direction: column;

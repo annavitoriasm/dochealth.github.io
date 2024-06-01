@@ -195,6 +195,7 @@ main{
     width: 500px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .figure{
@@ -274,13 +275,16 @@ main{
     }
     
     .cont-fig{
+        width: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    
     .figure{
         width: 100px;
         height: 30px;
+        margin-bottom: -20px;
     }
     
     .paper{

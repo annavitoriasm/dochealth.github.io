@@ -210,13 +210,14 @@ main{
 
 .fig2{
     width: 350px;
-    height: 30px;
+    height: 35px;
     background-color: rgba(93, 163, 114, 0.76);
+    padding-top: 10px;
 }
 
 .box-content{
-    width: 350px;
-    height: 260px;
+    width: 340px;
+    height: 270px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -226,7 +227,7 @@ main{
     border-radius: 6px;
     box-shadow:  8px 8px 0px #cacacaa8, -11px -11px 0px #fafafa00;
     overflow: hidden;
-    padding-bottom: 13px;
+    padding-bottom: 15px;
 }
 
 .content{
@@ -327,13 +328,13 @@ input{
     }
     
     .box-content{
-        width: 290px;
+        width: 270px;
         height: 260px;
         padding-bottom: 13px;
     }
     
     .content{
-        width: 270px;
+        width: 250px;
         height: 210px;
         padding: 5px 5px 5px 5px;
     

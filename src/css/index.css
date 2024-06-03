@@ -180,11 +180,12 @@ txt{
 /* '---TITLE---' */
 
 main{
-    display: grid;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main h1{
@@ -258,7 +259,7 @@ main h3{
         width: 100%;
         height: 100vh;
         display: flex;
-        gap: 0.5rem;
+        gap: 2rem;
     }
 
     .fa-bars{
@@ -270,11 +271,13 @@ main h3{
     }
     main{
         width: 100%;
-        display: flex;
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-        margin-left: 5px;
-        padding-top: 15px;
+        height: 100vh;
+        padding-left: 65px;
+        padding-right: 0px;
+    }
+
+    .title{
+        margin-left: 0px;
     }
     
     main h1{
@@ -290,11 +293,6 @@ main h3{
         font-size: 15px;
         margin-top: -10px;
         margin-left: 7px;
-    }
-    
-    .title{
-        margin-left: 70px;
-        margin-bottom: 50px;
     }
 
     #icon-logo{

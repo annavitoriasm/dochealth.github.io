@@ -181,13 +181,14 @@ txt{
 /* '---DAILY---' */
 
 main{
-    display: flex;
-    height: 100%;
     width: 100%;
-    margin-left: 240px;
-    padding-left: 200px;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .figures-daily{
@@ -231,6 +232,7 @@ main{
 }
 .content h2{
     font-family: "Roboto", sans-serif;
+    color: rgba(20, 20, 20, 0.952);
     font-weight: 700;
     font-style: normal;
     font-size: 45px;
@@ -453,7 +455,7 @@ main{
         width: 100%;
         height: 100vh;
         display: flex;
-        gap: 0.5rem;
+        gap: 2rem;
     }
 
     .fa-bars{
@@ -465,15 +467,13 @@ main{
     }
     main{
         width: 100%;
-        display: flex;
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-        margin-left: 90px;
-        padding-top: 60px;
+        height: 100vh;
+        padding-left: 60px;
+        padding-right: 0px;
     }
 
     .daily{
-        width: 270px;
+        width: 280px;
         height: 450px;
         max-height: max-content;
     }

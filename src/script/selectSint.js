@@ -6,17 +6,12 @@ function selecionar(sintoma) {
     
     let myDiv = document.createElement('div');
     myDiv.innerHTML = sintoma;
-    myDiv.classList.add('opcoes');
+    myDiv.classList.add('campo-tags');
     principal.appendChild(myDiv);
-    let opcoesTags = document.querySelector('.opcoes')
-
-    opcoesTags.classList.add('campo-tags')
-    opcoesTags.classList.remove('opcoes')
 
     myDiv.addEventListener('click', function () {
     })
 }
-
 
 // '---LISTA DE SINTOMAS---'
 

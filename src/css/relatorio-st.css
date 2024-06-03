@@ -217,7 +217,7 @@ main{
 
 .box-content{
     width: 340px;
-    height: 270px;
+    height: 290px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -239,7 +239,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     padding: 10px 10px 10px 10px;
 
 }
@@ -252,6 +252,12 @@ main{
 
 h2{
     color: rgb(20, 20, 20);
+    margin-bottom: -5px;
+}
+
+label{
+    margin-bottom: -10px;
+    align-items: start;
 }
 
 input{
@@ -329,7 +335,7 @@ input{
     
     .box-content{
         width: 270px;
-        height: 260px;
+        height: 270px;
         padding-bottom: 13px;
     }
     
